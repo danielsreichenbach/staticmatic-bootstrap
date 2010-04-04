@@ -12,6 +12,7 @@ Bootstrap*.
 
 ## Sun, Apr 04, 2010
 
+* Added project icon as favicon.
 * Created the initial *StaticMatic* bootstrap repository using the default
   `staticmatic setup .` command.
 
