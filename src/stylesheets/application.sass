@@ -1,4 +1,17 @@
+// Import helper functions provided by Compass =================================
+@import compass/utilities
+@import compass/css3
+
++font-face("Droid Sans Regular", font_files("DroidSans.ttf","truetype"), "fonts/DroidSans.eot", "Droid Sans")
++font-face("Droid Sans Mono Regular", font_files("DroidSansMono.ttf","truetype"), "fonts/DroidSansMono.eot", "Droid Sans Mono")
+
 body
   font:
-    family: Verdana
+    family: "Droid Sans Regular","Verdana",sans-serif
     size: 10pt
+
+pre, code
+  font:
+    family: "Droid Sans Mono Regular","Monaco",monospace
+    size: 10pt
+
