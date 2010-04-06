@@ -10,6 +10,10 @@
 This document contains a chronological list of all changes made to *StaticMatic
 Bootstrap*.
 
+## Tue, Apr 06, 2010
+
+* Added Compass configuration for Compass version >= 0.10.
+
 ## Sun, Apr 04, 2010
 
 * Added project icon as favicon.
