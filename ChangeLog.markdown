@@ -12,6 +12,8 @@ Bootstrap*.
 
 ## Tue, Apr 06, 2010
 
+* Added demo content for most (if not all) HTML elements, image and
+  readability tests.
 * Added Compass configuration for Compass version >= 0.10.
 
 ## Sun, Apr 04, 2010

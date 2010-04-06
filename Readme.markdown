@@ -60,6 +60,18 @@ want to install one or multiple of the gems listed below:
 with custom grids, SASS extensions, etc. you will need to add a `require`
 statement inside of the Compass configuration file `compass.rb`.
 
+## How to use the Bootstrap
+
+Once you have all the dependencies installed, you can simply execute the
+command `staticmatic preview .` inside the source directory.  Then open
+a browser and load up http://localhost:3000/.  All changes made to the
+*SASS* stylesheets inside `src/stylesheets/`, and to the *HAML* pages in
+`src/pages/` will immediately show up.
+
+**Notice**: if there are errors inside your HAML/SASS files you will see
+them in the terminal for HAML errors, and inside your browser window for SASS
+errors.
+
 ## Further information
 
 Comments, suggestions, and issue reports should be filed at [github](http://github.com/).
