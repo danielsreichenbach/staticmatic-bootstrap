@@ -28,7 +28,7 @@ is available online, thanks to [creative commons](http://creativecommons.org).
 
 ## Welcome to the StaticMatic Bootstrap
 
-(StaticMatic](http://www.staticmatic.net) is a great toolkit when it comes to
+[StaticMatic](http://www.staticmatic.net) is a great toolkit when it comes to
 quickly build templates for web applications.  This *Bootstrap* combines the
 powers of [HAML](http://haml-lang.com), [SASS](http://sass-lang.com),
 [Compass](http://compass-style.org) with *StaticMatic* into a local prototyping
