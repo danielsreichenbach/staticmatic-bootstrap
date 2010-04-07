@@ -10,6 +10,10 @@
 This document contains a chronological list of all changes made to *StaticMatic
 Bootstrap*.
 
+## Wed, Apr 07, 2010
+
+* Made the layout more pleasant to the eye.
+
 ## Tue, Apr 06, 2010
 
 * Added demo content for most (if not all) HTML elements, image and
