@@ -1,0 +1,20 @@
+!!! XML
+!!! Strict
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "en", :lang => "en"}
+  %head
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=UTF-8'}/
+    %title StaticMatic
+    %meta{:name => "description", :content => 'Test Drive your HAML/SASS based design prototype with ease.'}
+
+    %link{:rel => "icon",           :href => "favicon.png", :type => "image/png"}
+    %link{:rel => "shortcut icon",  :href => "favicon.ico", :type => "image/x-icon"}
+
+    %script{:type => "text/javascript", :src => "javascripts/prototype.js"}
+
+    %link{:rel => "stylesheet",     :href => "stylesheets/screen.css",  :media => "screen", :type => "text/css"}
+    /[if lt IE 8]
+      %link{:rel =>"stylesheet",    :href => "stylesheets/ie.css",      :media => "screen", :type => "text/css"}
+
+  %body
+    = yield
+

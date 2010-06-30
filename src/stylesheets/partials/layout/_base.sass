@@ -1,0 +1,27 @@
+// layout/_base.sass - Configuring project matrix, right here.
+//
+// Here we chose a grid system we prefer for the project, and add the basic
+// configuration settings required to load the grid system.
+
+/* @group screen/_layout/_base */
+
+// Grid configuration ------------------------------------------------------
+$blueprint-grid-columns: 24
+$blueprint-container-size: 950px
+$blueprint-grid-margin: 10px
+
+// Use this to calculate the width based on the total width.
+// Or you can set !blueprint_grid_width to a fixed value and unset
+// !blueprint_container_size -- it will be calculated for you.
+$blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin
+
+// Font configuration ------------------------------------------------------
+$blueprint-font-family: unquote('"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif')
+$blueprint-fixed-font-family: unquote('"Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace')
+$blueprint-font-size: 13px
+
+// Don't move this @import above the GRID and FONT-SIZE variables.
+@import "blueprint/grid"
+
+/* @end screen/_layout/_base */
+

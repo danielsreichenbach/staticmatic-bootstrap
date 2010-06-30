@@ -10,6 +10,11 @@
 This document contains a chronological list of all changes made to *StaticMatic
 Bootstrap*.
 
+## Mon, Apr 12, 2010
+
+* Split SASS files as suggested by [Chris Eppstein](http://chriseppstein.github.com/blog/2009/09/25/separating-style-concerns/).
+* We now depend on Maruku.
+
 ## Wed, Apr 07, 2010
 
 * Made the layout more pleasant to the eye.

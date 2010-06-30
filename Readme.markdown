@@ -39,11 +39,8 @@ complete with [RubyGems](http://rubygems.org).  Additionally you will need the
 following Ruby gems installed:
 
  * haml, version >= 2.2.0
- * Any [Markdown](http://daringfireball.net/projects/markdown) supporting gem:
-   * RDiscount
-   * RPeg-Markdown
-   * Maruku (*recommended*)
-   * BlueCloth
+ * [Markdown](http://daringfireball.net/projects/markdown) supporting gem:
+   * Maruku
  * compass, version >= 0.10.0.rc1
  * compass-colors, version >= 0.7.0.pre6
  * staticmatic, version >= 0.10.8
