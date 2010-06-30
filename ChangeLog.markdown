@@ -10,6 +10,10 @@
 This document contains a chronological list of all changes made to *StaticMatic
 Bootstrap*.
 
+## Wed, 30 Jun, 2010
+
+* Update project template for StaticMatic, version 0.11.0
+
 ## Mon, Apr 12, 2010
 
 * Split SASS files as suggested by [Chris Eppstein](http://chriseppstein.github.com/blog/2009/09/25/separating-style-concerns/).

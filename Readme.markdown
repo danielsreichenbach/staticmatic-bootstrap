@@ -38,12 +38,11 @@ The *Bootstrap* requires a working [Ruby](http://ruby-lang.com) installation
 complete with [RubyGems](http://rubygems.org).  Additionally you will need the
 following Ruby gems installed:
 
- * haml, version >= 2.2.0
+ * haml, version >= 3.0.13
  * [Markdown](http://daringfireball.net/projects/markdown) supporting gem:
    * Maruku
- * compass, version >= 0.10.0.rc1
- * compass-colors, version >= 0.7.0.pre6
- * staticmatic, version >= 0.10.8
+ * compass, version >= 0.10.2
+ * staticmatic, version >= 0.11.0
 
 If you want to use any grid system to design your web applications, you may
 want to install one or multiple of the gems listed below:
