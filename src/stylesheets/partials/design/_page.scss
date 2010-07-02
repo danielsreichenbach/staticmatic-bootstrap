@@ -1,0 +1,13 @@
+// design/_page.scss - Look ma! It's vintage design. No son, thats Bauhaus.
+//
+
+/* @group screen/_design/_page ---------------------------------------------- */
+
+#application {
+  background-color: $default-background-color;
+  border-style: solid;
+  border-color: $default-border-color;
+  @include border-radius(11px); }
+
+/* @end screen/_design/_page ------------------------------------------------ */
+

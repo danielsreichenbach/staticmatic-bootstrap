@@ -10,6 +10,10 @@
 This document contains a chronological list of all changes made to *StaticMatic
 Bootstrap*.
 
+## Thu, 01 Jul, 2010
+
+* Integrated Susy framework. We now require the `compass-susy-plugin` gem.
+
 ## Wed, 30 Jun, 2010
 
 * Update project template for StaticMatic, version 0.11.0

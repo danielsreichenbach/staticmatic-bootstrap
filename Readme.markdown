@@ -43,11 +43,11 @@ following Ruby gems installed:
    * Maruku
  * compass, version >= 0.10.2
  * staticmatic, version >= 0.11.0
+ * compass-susy-plugin, version => 0.7.0
 
-If you want to use any grid system to design your web applications, you may
-want to install one or multiple of the gems listed below:
+If you prefer a different  grid system to design your web applications, you
+may want to install one or multiple of the gems listed below:
 
- * compass-susy-plugin
  * compass-960-plugin
  * compass-fluid960-plugin
  * compass-vgrid-plugin

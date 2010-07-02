@@ -1,0 +1,14 @@
+// layout/_page.scss - Left to right, top to bottom, whatever you like.
+//
+
+/* @group screen/_layout/_page ---------------------------------------------- */
+
+#application {
+  @include container;
+  @include show-grid("grid.png");
+  border-width: 1px;
+  margin: 4em auto 0;
+  padding: 1em 2em; }
+
+/* @end screen/_layout/_page ------------------------------------------------ */
+

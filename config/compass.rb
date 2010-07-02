@@ -1,11 +1,15 @@
-require "staticmatic/compass"
+require 'staticmatic/compass'
+require 'susy'
+
+# Can be `:stand_alone` or `:rails`. Defaults to `:stand_alone`.
+project_type          = :staticmatic
 
 # To enable relative paths to assets via compass helper functions.  Please note
 # that this will *only* allow you to use relative URLs for the image_url SASS
 # function, and not compute relative URLs for you.
 #
 # Uncomment:
-relative_assets     = true
+relative_assets       = false
 
 # Indicates whether line comments should be added to compiled css that says
 # where the selectors were defined.
@@ -14,11 +18,6 @@ line_comments         = false
 # The output style for the compiled css.  One of: `:nested`, `:expanded`,
 # `:compact`, or`:compressed`.
 output_style          = :compact
-
-preferred_syntax      = :sass
-
-# Can be `:stand_alone` or `:rails`. Defaults to `:stand_alone`.
-project_type          = :staticmatic
 
 # Directory containing the SASS source files
 sass_dir              = "src/stylesheets/"

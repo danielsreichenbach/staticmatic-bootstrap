@@ -1,0 +1,19 @@
+// _layout.scss - The grid, baby. Think of the Matrix learning CSS.
+//
+// Properties which should be added here include:
+//
+// * `display`
+// * `position`, `left`, `top`, `bottom`, `right`
+// * `float` & `clear`
+// * `width` & `height`
+// * `margin`
+// * `border-width`, `padding`
+
+/* @group screen/_layout ---------------------------------------------------- */
+@import "layout/defaults";
+@import "layout/page";
+@import "layout/footer";
+@import "layout/header";
+
+/* @end screen/_layout ------------------------------------------------------ */
+

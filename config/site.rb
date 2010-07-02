@@ -1,7 +1,5 @@
 require 'compass'
 
-Compass.add_project_configuration('config/compass.rb')
-
 # Default is 3000
 configuration.preview_server_port = 3000
 
@@ -10,7 +8,7 @@ configuration.preview_server_host = "localhost"
 
 # Default is true
 # When false .html & index.html get stripped off generated urls
-configuration.use_extensions_for_page_links = false
+configuration.use_extensions_for_page_links = true
 
 # Default is an empty hash
 configuration.sass_options = Compass.sass_engine_options
@@ -18,7 +16,8 @@ configuration.sass_options = Compass.sass_engine_options
 # Default is an empty hash
 # http://haml-lang.com/docs/yardoc/file.HAML_REFERENCE.html#options
 configuration.haml_options = {
-  :format => :xhtml,
-  :attr_wrapper => '"'
+  :attr_wrapper => '"',
+  :ugly => "false",
+  :format => :html5
 }
 

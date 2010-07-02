@@ -1,0 +1,21 @@
+// layout/_base.scss - Configure the projects grid system here.
+//
+
+/* @group screen/_layout/_base ---------------------------------------------- */
+
+// Grid configuration ----------------------------------------------------------
+$total-cols: 10;
+$col-width: 4em;
+$gutter-width: 1em;
+$side-gutter-width: $gutter-width;
+
+// Font configuration ----------------------------------------------------------
+$base-font-size: 16px;
+$base-line-height: 24px;
+
+// Don't move this @import above the GRID and FONT-SIZE variables.
+@import "susy/susy";
+@import "susy/reset";
+
+/* @end screen/_layout/_base ------------------------------------------------ */
+
