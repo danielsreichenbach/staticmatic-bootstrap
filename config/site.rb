@@ -17,7 +17,7 @@ configuration.sass_options = Compass.sass_engine_options
 # http://haml-lang.com/docs/yardoc/file.HAML_REFERENCE.html#options
 configuration.haml_options = {
   :attr_wrapper => '"',
-  :ugly => "false",
+  :ugly => false,
   :format => :html5
 }
 
