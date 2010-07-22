@@ -7,15 +7,15 @@
 
 body {
   @include serif-family;
-  color: $default-text-color; }
+  color: $font-color; }
 
 /* Links -------------------------------------------------------------------- */
 
 a {
   &:link, &:visited {
-    color: $default-link-color; }
+    color: $link-color; }
   &:focus, &:hover, &:active {
-    color: darken($default-link-color, 5);
+    color: darken($link-color, 5);
     text-decoration: none; }
   img {
     border: none; } }
@@ -199,4 +199,3 @@ textarea, input:not([type="radio"]) {
   width: 100%; }
 
 /* @end screen/_typography/_defaults ---------------------------------------- */
-

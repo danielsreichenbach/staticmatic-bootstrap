@@ -4,9 +4,9 @@
 /* @group screen/_design/_page ---------------------------------------------- */
 
 #application {
-  background-color: $default-background-color;
+  background-color: white;
   border-style: solid;
-  border-color: $default-border-color;
+  border-color: $feedback-border-color;
   @include border-radius(11px); }
 
 /* @end screen/_design/_page ------------------------------------------------ */
