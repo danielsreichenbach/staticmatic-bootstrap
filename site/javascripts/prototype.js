@@ -4872,3 +4872,4 @@ Element.ClassNames.prototype = {
 Object.extend(Element.ClassNames.prototype, Enumerable);
 
 /*--------------------------------------------------------------------------*/
+

@@ -10,6 +10,10 @@
 This document contains a chronological list of all changes made to *StaticMatic
 Bootstrap*.
 
+## Thu, 22 Jul, 2010
+
+* Replace color names with the ones used in the BluePrint CSS framework to ease switching.
+
 ## Thu, 01 Jul, 2010
 
 * Integrated Susy framework. We now require the `compass-susy-plugin` gem.
